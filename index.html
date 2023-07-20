@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+
+<body>
+    <nav>
+        <div class="left_side">
+            <h3>Files</h3>
+            <p class="partition">|</p>
+            <i class="fa fa-th-large" aria-hidden="true"></i>
+            <p class="company">Infollion Prototype</p>
+            <p class="increasing">></p>
+            <p class="subject">Calendar</p>
+        </div>
+        <div class="right_side">
+            <button class="inviteBtn">Invite</button>
+            <select name="" id="zoom">
+                <option value="default">52.2%</option>
+                <option value="25%">25%</option>
+                <option value="50%">50%</option>
+                <option value="75%">75%</option>
+                <option value="100%">100%</option>
+            </select>
+            <i class="fa fa-expand" aria-hidden="true"></i>
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+            <div class="notification">
+                <i class="fa fa-bell" aria-hidden="true"></i>
+                <p class="count">4</p>
+            </div>
+            <p class="signed-in">V</p>
+        </div>
+    </nav>
+    <main>
+        <div class="mainBody">
+            <div class="body-container">
+                <div class="left-side-bar">
+                    <div class="menu-logo">
+                        <button class="menuBtn">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <img src="https://image4.owler.com/logo/infollion_owler_20160227_004035_original.png"
+                            width="42%" alt="infollion">
+                    </div>
+                    <div class="side-bar-details">
+                        <button class="side-bar-btn btn_drop">
+                            <p>Manage</p>
+                            <i class="fa fa-sort-desc" style="font-size:7px"></i>
+                        </button>
+                        <button class="side-bar-btn btn_dropdown ">Moderate</button>
+                        <button class="side-bar-btn btn_dropdown">Tag</button>
+                        <button class="side-bar-btn btn_dropdown">Compliance</button>
+                        <button class="side-bar-btn btn_dropdown">Payments</button>
+                        <button class="side-bar-btn btn_dropdown">Advance Settings</button>
+                        <button class="side-bar-btn btn_drop">
+                            <p>Users</p>
+                            <i class="fa fa-sort-desc" style="font-size:7px"></i>
+                        </button>
+                        <button class="side-bar-btn btn_dropdown">Admin</button>
+                        <button class="side-bar-btn btn_dropdown">Client</button>
+                        <button class="side-bar-btn btn_dropdown">Contact</button>
+                        <button class="side-bar-btn btn_drop">
+                            <p>Engagements</p>
+                            <i class="fa fa-sort-desc" style="font-size:7px"></i>
+                        </button>
+                        <button class="side-bar-btn btn_dropdown">Projects</button>
+                        <button class="side-bar-btn btn_dropdown">Calls</button>
+                        <button class="side-bar-btn btn_dropdown btn_active">Calendar</button>
+                        <button class="side-bar-btn btn_drop">
+                            <p>Experts</p>
+                            <i class="fa fa-sort-desc" style="font-size:7px"></i>
+                        </button>
+                        <button class="side-bar-btn btn_dropdown">Expert Search</button>
+                        <button class="side-bar-btn btn_dropdown">Value Chain</button>
+                    </div>
+                </div>
+                <div class="main-content">
+                    <div class="calendar-top">
+                        <h5>Calendar</h5>
+                        <button class="user-details">
+                            <i class="fa fa-user" style="font-size:14px"></i>
+                            Vijay Sharma
+                            <i class="fa fa-sort-desc" style="font-size:7px"></i>
+                        </button>
+                    </div>
+                    <div class="calendar-bottom">
+                        <div class="calendar-date">
+                            <button class="date-btn">
+                                29 July 2023
+                                <i class="fa fa-calendar-minus-o" style="font-size:10px"></i>
+                            </button>
+                        </div>
+                        <div class="calendar">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="thead first">Time</th>
+                                        <th class="thead data">
+                                            <p>05</p>
+                                            <p>Healthcare</p>
+                                        </th>
+                                        <th class="thead data">
+                                            <p>03</p>
+                                            <p>Brewbulbs</p>
+                                        </th>
+                                        <th class="thead data">
+                                            <p>02</p>
+                                            <p>Fintech</p>
+                                        </th>
+                                        <th class="thead data">
+                                            <p>03</p>
+                                            <p>Fintech</p>
+                                        </th>
+                                        <th class="thead data">
+                                            <p>05</p>
+                                            <p>Aquaholics</p>
+                                        </th>
+                                        <th class="thead data">
+                                            <p>00</p>
+                                            <p>IT</p>
+                                        </th>
+                                        <th class="thead data">
+                                            <p>00</p>
+                                            <p>RIOC</p>
+                                        </th>
+                                        <th class="thead data">
+                                            <p>01</p>
+                                            <p>US</p>
+                                        </th>
+                                        <th class="thead data last">
+                                            <p>03</p>
+                                            <p>Equity</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tbody first">09 AM</td>
+                                        <td class="tbody data_1">
+                                            <div>
+                                                <p>CALL Matrix,</p>
+                                                <p>expert Ravi Gupta</p>
+                                            </div>
+                                        </td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody data_1 data_3">
+                                            <div>
+                                                <p>CALL Matrix,</p>
+                                                <p>expert Ravi Gupta</p>
+                                            </div>
+                                        </td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody first">10 AM</td>
+                                        <td class="tbody data_1">
+                                            <div>
+                                                <p>CALL Matrix,</p>
+                                                <p>expert Ravi Gupta</p>
+                                            </div>
+                                        </td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody data_1 data_3">
+                                            <div>
+                                                <p>CALL Matrix,</p>
+                                                <p>expert Ravi Gupta</p>
+                                            </div>
+                                        </td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody first">11 AM</td>
+                                        <td class="tbody data_1">
+                                            <div>
+                                                <p>CALL Matrix,</p>
+                                                <p>expert Ravi Gupta</p>
+                                            </div>
+                                        </td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody data_1 data_4">
+                                            <div>
+                                                <p>CALL Matrix,</p>
+                                                <p>expert Ravi Gupta</p>
+                                            </div>
+                                        </td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody first">12 AM</td>
+                                        <td class="tbody data_1">
+                                            <div>
+                                                <p>CALL Matrix,</p>
+                                                <p>expert Ravi Gupta</p>
+                                            </div>
+                                        </td>
+                                        <td class="tbody data_1 data_2">
+                                            <div>
+                                                <p>CALL Matrix,</p>
+                                                <p>expert Ravi Gupta</p>
+                                            </div>
+                                        </td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody data_1 data_4">
+                                            <div>
+                                                <p>CALL Matrix,</p>
+                                                <p>expert Ravi Gupta</p>
+                                            </div>
+                                        </td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody first">01 PM</td>
+                                        <td class="tbody data_1">
+                                            <div>
+                                                <p>CALL Matrix,</p>
+                                                <p>expert Ravi Gupta</p>
+                                            </div>
+                                        </td>
+                                        <td class="tbody data_1 data_2">
+                                            <div>
+                                                <p>CALL Matrix,</p>
+                                                <p>expert Ravi Gupta</p>
+                                            </div>
+                                        </td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody data_1 data_4">
+                                            <div>
+                                                <p>CALL Matrix,</p>
+                                                <p>expert Ravi Gupta</p>
+                                            </div>
+                                        </td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody first">02 PM</td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody data_1 data_2">
+                                            <div>
+                                                <p>CALL Matrix,</p>
+                                                <p>expert Ravi Gupta</p>
+                                            </div>
+                                        </td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody first">03 PM</td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody first">04 PM</td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody first">05 PM</td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody first">06 PM</td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody first">07 PM</td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody first">08 PM</td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody first">09 PM</td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                        <td class="tbody"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <footer>
+                <div class="go_to">
+                    <i class="fa fa-home"></i>
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                    <p class="number">91 of 118</p>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </footer>
+        </div>
+        <div class="sideBar">
+            <i class="fa fa-comment" style="font-size:16px"></i>
+            <i class="fa fa-code" style="font-size:16px"></i>
+            <h4>{}</h4>
+        </div>
+    </main>
+
+</body>
+
+</html>
